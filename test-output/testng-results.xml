@@ -2,25 +2,23 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-05T11:12:52 IST" name="Default suite" finished-at="2025-08-05T11:12:54 IST" duration-ms="2169">
+  <suite started-at="2025-08-14T10:15:55 IST" name="Default suite" finished-at="2025-08-14T10:15:57 IST" duration-ms="2514">
     <groups>
     </groups>
-    <test started-at="2025-08-05T11:12:52 IST" name="Default test" finished-at="2025-08-05T11:12:54 IST" duration-ms="2169">
-      <class name="dynamicJson">
-        <test-method signature="addBook()[pri:0, instance:dynamicJson@4550bb58]" started-at="2025-08-05T11:12:52 IST" name="addBook" finished-at="2025-08-05T11:12:54 IST" duration-ms="2123" status="FAIL">
+    <test started-at="2025-08-14T10:15:55 IST" name="Default test" finished-at="2025-08-14T10:15:57 IST" duration-ms="2514">
+      <class name="OAuthScript">
+        <test-method signature="oAuthData()[pri:0, instance:OAuthScript@4efbca5a]" started-at="2025-08-14T10:15:55 IST" name="oAuthData" finished-at="2025-08-14T10:15:57 IST" duration-ms="2477" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [bcd227] but found [776hhgter76gf54]]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [bcd227] but found [776hhgter76gf54]
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at dynamicJson.addBook(dynamicJson.java:15)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at OAuthScript.oAuthData(OAuthScript.java:43)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -52,8 +50,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addBook -->
-      </class> <!-- dynamicJson -->
+        </test-method> <!-- oAuthData -->
+      </class> <!-- OAuthScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -70,7 +70,7 @@ public class payload {
 				+ "";
 	}
 	
-	public static String addBook(String aisle,String isbn) {
+	public static String addBook(String isbn,String aisle) {
 		String input="{\r\n"
 				+ "\r\n"
 				+ "\"name\":\"Learn Appium Automation with Java\",\r\n"
